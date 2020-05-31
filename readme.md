@@ -9,7 +9,7 @@ It also seems that updating your password once fixes the bad state, and the web 
 ## Notes
 As I do not know how to get around reCAPTCHA from within a PowerShell script as the of the creation of this script, the **CaptchaResponse** parameter will need to be retrieved manually from the web app. To get this value:
 1. Navigate to the Starpass login page (https://www.showcasecinemas.com/starpass/login)
-2. Enable your browser's dev tools (usually by pressing the F12 key
+2. Enable your browser's dev tools (usually by pressing the F12 key)
 3. Go to your browser's dev tools Network tab and clear whatever requests are in there
 4. Complete the reCAPTCHA
 5. In your browser's dev tools Network tab, find and click the POST request made to https://www.google.com/recaptcha/api2/userverify
